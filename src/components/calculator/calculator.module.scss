@@ -1,0 +1,37 @@
+.title {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  label {
+    text-align: center;
+  }
+
+  input {
+    width: 200px;
+    margin: 10px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #b3b3b3;
+    text-align: center;
+    display: block;
+  }
+
+  select {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #b3b3b3;
+  }
+}

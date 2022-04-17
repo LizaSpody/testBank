@@ -1,0 +1,44 @@
+.title {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  table {
+    overflow: hidden;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 1px solid #eee;
+  }
+
+  thead {
+    background-color: #0070ba;
+    color: #fff;
+  }
+
+  th {
+    padding: 10px 7px;
+  }
+}
+
+.name {
+  min-width: 200px;
+}
+
+.plus {
+  border: 0;
+  background-color: #0070ba;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 0;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.row {
+  text-align: center;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
+  td {
+    border-bottom: 1px solid #eee;
+    position: relative;
+    border-right: 1px solid #eee;
+    cursor: pointer;
+  }
+
+  input {
+    position: absolute;
+    width: 98%;
+    height: 99%;
+    top: 0;
+    left: 1%;
+    text-align: center;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
