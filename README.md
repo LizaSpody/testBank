@@ -10,4 +10,4 @@
 
 Что бы получить список банков нужно запролнить поля "Initial loan" и "Down payment"
 
-Приложение можно псмотреть по ссылке https://lizaspody.github.io/testBank/build
+Приложение можно псмотреть по ссылке https://lizaspody.github.io/testBank/build/
