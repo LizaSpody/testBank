@@ -16,7 +16,6 @@ class App extends React.Component {
 
     reciveData() {
         let list;
-        console.log(list)
         if (JSON.parse(localStorage.getItem('items'))) {
             list = JSON.parse(localStorage.getItem('items'))
         } else {
@@ -26,9 +25,7 @@ class App extends React.Component {
     }
 
     saveInfo(items) {
-        // console.log(items)
         localStorage.setItem('items', JSON.stringify(items));
-        // console.log(localStorage.getItem('items'))
         this.setState( () => ({
             list: items
         }));

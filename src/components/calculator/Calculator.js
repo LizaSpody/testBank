@@ -18,7 +18,6 @@ class Calculator extends React.Component {
     }
 
     formula(item) {
-        debugger
         let bank = item[0];
         let borrewed = this.state.loan - this.state.payment;
         let rate = bank.rate / 100;
@@ -76,10 +75,10 @@ class Calculator extends React.Component {
                     </label>
                     <label>
                         Select bank
-                        <select  defaultValue={'DEFAULT'} name="" id="">
+                        <select onChange={this.selectItem} defaultValue={'DEFAULT'} name="" id="">
                             <option value="DEFAULT" disabled>Choose a bank</option>
                             {this.state.listBank.map((item, id)=>{
-                                return <option onClick={this.selectItem} key={id}>{item.name}</option>
+                                return <option key={id}>{item.name}</option>
                             })}
                         </select>
                     </label>
